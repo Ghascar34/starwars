@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-image: url(./img/background.png);
+  color: white;
+  background-repeat: cover;
+}
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: crimson;
+}
+
+.container,
+.firstp,
+.secondp,
+.thirdp,
+.p {
+  width: fit-content;
+  top: 30px;
+  left: 100px;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: auto;
+  margin-top: 30px;
+  text-align: center;
+}
+.fight,
+.han,
+.darth,
+.robot {
+  width: 50%;
+  border: 5px solid;
+  border-radius: 3px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+p {
+  text-align: justify;
+  width: 50%;
+  display: inline-block;
+  font-family: monospace;
+  font-size: 1.2rem;
+  color: whitesmoke;
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10 20 50 10;
+    font-size: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 20px;
+    width: 75px;
+    height: 25px;
+
+  }
+
+ p a {
+  text-decoration: none;
+  color: red;
+}
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+a:active {
+  color: crimson;
+}
+li a:hover{
+    color: crimson;
+    text-decoration: underline;
+}
